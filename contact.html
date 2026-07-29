@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sofia Gelashvili - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <div id="navbar">
+      <a href="index.html">Home</a> |
+      <a href="about.html">About Me</a> |
+      <a href="skills.html">Skills</a> |
+      <a href="projects.html">Projects</a> |
+      <a href="contact.html">Contact</a>
+    </div>
+    <hr>
+
+    <h1>Contact Me</h1>
+    <p>Feel free to reach out if you want to talk about CS, school, or just say hi.</p>
+
+    <!-- Part A: Direct Contact -->
+    <h2>Reach Me Directly</h2>
+    <p>Email: <a href="mailto:sgelashvili94@gmail.com">sgelashvili94@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/sgelashvili-geo" target="_blank">github.com/sgelashvili-geo</a></p>
+
+    <!-- Part B: Contact Form -->
+    <h2>Send a Message</h2>
+    <form method="GET">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" placeholder="Your name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="your@email.com" required><br><br>
+
+      <label for="subject">Subject:</label><br>
+      <select id="subject" name="subject">
+        <option value="question">Question about my projects</option>
+        <option value="college">College / admissions</option>
+        <option value="collab">Collaboration idea</option>
+        <option value="other">Other</option>
+      </select><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="5" cols="40" placeholder="Write your message here..."></textarea><br><br>
+
+      <p>How did you find me?</p>
+      <input type="radio" id="friend" name="found" value="friend">
+      <label for="friend">Friend recommendation</label><br>
+      <input type="radio" id="search" name="found" value="search">
+      <label for="search">Internet search</label><br><br>
+
+
+      <input type="submit" value="Send Message">
+    </form>
+
+    <!-- Part C: Closing -->
+    <hr>
+    <h3>Thanks for visiting!</h3>
+
+    <!-- Footer -->
+    <footer>
+      All rights reserved<br>
+      Sofia Gelashvili 2026
+    </footer>
+</body>
+</html>
