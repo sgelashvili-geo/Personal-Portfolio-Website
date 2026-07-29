@@ -1,0 +1,61 @@
+body {
+  background-color: #f5f7fa;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  color: #333;
+}
+
+/* Headings color and size */
+h1 {
+  color: #2c3e50;
+  font-size: 32px;
+}
+
+/* Paragraph text */
+p {
+  color: #444;
+  font-size: 1rem;
+}
+
+/* Grouped selector for all main headings */
+h1, h2, h3 {
+  color: #2c3e50;
+}
+
+/* Navigation bar */
+#navbar {
+  background-color: #3498db;
+  padding: 12px;
+  text-align: center;
+}
+
+#navbar a {
+  color: white;
+  margin: 0 8px;
+}
+
+/* Project cards on projects page */
+.project-card {
+  background-color: #ffffff;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Table styles */
+table {
+  width: 80%;
+  border: 1px solid #333;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #3498db;
+  padding: 8px;
+  color: white;
+}
+
+td {
+  padding: 6px;
+}
